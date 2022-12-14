@@ -9,9 +9,9 @@ interface Props {
 const Layout = ({ children }: Props) => {
 	return (
 		<>
-			<Header></Header>
+			{/* <Header></Header> */}
 			{children}
-			<Footer></Footer>
+			{/* <Footer></Footer> */}
 		</>
 	)
 }

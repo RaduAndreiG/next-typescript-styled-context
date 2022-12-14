@@ -4,6 +4,7 @@ import Test from '../features/Todos/Test'
 import { Context } from '../utils/todosProvider'
 import { useContext } from 'react'
 import Display from '../features/Todos/Display'
+import Main from '../features/Main/Main'
 
 const Home: NextPage = () => {
 	// const { array, addTodo } = useTodo()
@@ -23,12 +24,14 @@ const Home: NextPage = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<main>
+			<Main></Main>
+
+			{/* <main>
 				<Test />
 				<Display />
 				<button onClick={() => updateTodosDemo()}>Update todos</button>
 				<button onClick={() => clearAllTodos()}>Clear all Todos</button>
-			</main>
+			</main> */}
 		</div>
 	)
 }
