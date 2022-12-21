@@ -6,7 +6,7 @@ const Main = () => {
 
 	return (
 		<>
-			<StyledButton onClick={() => setOpened((prev) => !prev)}>
+			{/* <StyledButton onClick={() => setOpened((prev) => !prev)}>
 				Toggle
 			</StyledButton>
 			<MainContainer>
@@ -14,7 +14,7 @@ const Main = () => {
 					<Title>Conditionally render dropdown menu using APIs</Title>
 				</Left>
 				<Right style={{ right: opened ? '0px' : '-30%' }}></Right>
-			</MainContainer>
+			</MainContainer> */}
 		</>
 	)
 }
